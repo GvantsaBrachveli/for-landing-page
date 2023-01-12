@@ -12,9 +12,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 112px ;
     gap: 644px;
-    padding:20px 100px 20px 100px;
+    padding:42.5px 110px 0px 100px;
 }
 .navigation a {
     text-decoration: none;
@@ -36,8 +35,6 @@ body {
 }
 
 .section-title{
-    width: 343px;
-    height: 56px;
     font-weight: 700;
     font-size: 48px;
     line-height: 56px;
@@ -52,10 +49,7 @@ body {
     gap: 41px;
     border-radius: 20px;
     color: #CBD5E1;
-    width: 1150px;  
-    height: 300px;
-    left: 144px;
-    top: 690px;
+    
 }
 
 .article{
@@ -91,74 +85,60 @@ body {
 }
 
 .img{
-Width: 250px;
-Height: 231.76px;
+    Width: 250px;
+    Height: 231.76px;
 }
 
 .section-three{
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    justify-content: space-between;
 }
 
 .olderposts{
     width: 369px;
     height: 518px;
     background: #1E293B;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     display:flex;
     flex-direction: column;
-    justify-content: top;
-    align-items: top;
 }
 
 .par{
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: top;
-    gap: 3.45;
-    padding:0px 14.14px 71.23px 13.53px
+    padding:0px 14.14px 0px 13.53px; 
+    font-family: 'Roboto';
+    font-style: normal;  
+    text-align: center; 
+    color:#F8FAFC;
 }
 
 .heading{
-    padding: 0px 80.26px 0px 79.64px;
-    color:#F8FAFC;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 22px;
     line-height: 28px;
-    text-align: center; 
-    
 }
+
 .date{
     color: #9CA3AF;
-    text-align: center;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
 }
 
 .texts{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
-    text-align: center;
-    color:#F8FAFC
 }
 
 .footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 136px;
     align-items: center;
     border-top: 1px solid #CBD5E1;
+    padding: 40.5px 130px 56px 108px;
+    gap: 25px;
+    color:#CBD5E1
 }
-
