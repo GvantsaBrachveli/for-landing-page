@@ -34,11 +34,9 @@ body {
     gap: 83px;
 }
 .section-title{
-    position: absolute; 
     width: 343px;
     height: 56px;
     left: 144px;
-    top: 210px;
     font-weight: 700;
     font-size: 48px;
     line-height: 56px;
@@ -84,4 +82,10 @@ margin-bottom: 14px;
 .img{
 Width: 250px;
 Height: 231.76px;
+}
+
+
+.section-three{
+    display: flex;
+    flex-direction: row;
 }
