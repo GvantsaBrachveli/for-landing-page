@@ -28,7 +28,11 @@ body {
 }
 
 
-
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
 .section-one{
     position: absolute; 
     width: 343px;
