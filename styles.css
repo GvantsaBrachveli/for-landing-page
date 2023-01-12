@@ -28,16 +28,12 @@ body {
     gap: 60px
 }
 
-/*.logo{
-    padding: 42.5px 1118px 2278px 144px 
-}*/
-
-
 .main{
     display: flex;
     flex-direction: column;
     gap: 83px;
     padding:132.5px 145px 275px 144px;
+    margin-bottom: 139px;
 
 }
 .section-title{
@@ -86,6 +82,10 @@ body {
 
 .info h3 {
     margin-bottom: 25px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    color: #F8FAFC;
 }
 .info p{
     margin-bottom: 14px;
@@ -115,11 +115,11 @@ Height: 231.76px;
 
 }
 
-.date{
+.par{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: baseline;
+    align-items: top;
     gap: 3.45;
     padding:0px 14.14px 71.23px 13.53px
 }
@@ -132,6 +132,7 @@ Height: 231.76px;
     font-size: 22px;
     line-height: 28px;
     text-align: center; 
+    
 }
 .date{
     color: #9CA3AF;
@@ -151,5 +152,14 @@ Height: 231.76px;
     line-height: 23px;
     text-align: center;
     color:#F8FAFC
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 136ph;
+    align-content: center;
+    border-top: 1px solid #CBD5E1;
 }
 
