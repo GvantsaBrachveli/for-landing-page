@@ -126,14 +126,21 @@ Height: 231.76px;
 }
 .lasttitle{
     padding: 0px 80.26px 0px 79.64px;
-    color:#F8FAFC
+    color:#F8FAFC;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 28px;
     text-align: center; 
-    
-    
-    }
+}
+
+.lasttext{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+}
 
