@@ -57,8 +57,8 @@ body {
     align-items: center;
     background-color: #1E293B66;
     padding: 34.12px 84px 34.12px 8px;
-    
-    
+    gap: 44px;
+    border-radius: 20px;
 }
 
 .text{
@@ -68,9 +68,6 @@ text-align: left;
 font-style: normal;
 font-weight: 400;
 line-height: 23px;
-
-/* Slate/300 */
-
 color: #CBD5E1
 }
 
@@ -79,4 +76,8 @@ margin-bottom: 25px;
 }
 .info p{
 margin-bottom: 14px;
+}
+.img{
+Width: 250px;
+Height: 231.76px;
 }
